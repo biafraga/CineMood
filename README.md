@@ -20,6 +20,10 @@ Desenvolver um catálogo de filmes funcional, com navegação guiada pelo estado
 - [Diagrama de Classes (pdf)](diagrams/CineMood-Diagrama-de-classes.pdf)
 
 ---
+## 🗄Banco de Dados
+- [Script SQL Server](cineMood.sql)
+
+---
 
 ## Tecnologias (previstas)
 
