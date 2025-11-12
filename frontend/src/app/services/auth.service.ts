@@ -15,7 +15,7 @@ export class AuthService {
   constructor() { }
 
   async login (request: LoginRequest): Promise <string> {
-    const url= `${this.apiUrl}/auth/login`;
+    const url = `${this.apiUrl}/api/v1/admin/login`;
     const response = await firstValueFrom(
       this.http.post<LoginResponse>(url, request)
     )

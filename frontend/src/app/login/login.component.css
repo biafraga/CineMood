@@ -1,0 +1,50 @@
+:host {
+  display: block;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.25); /* O "vidro" - branco com 25% de opacidade */
+  backdrop-filter: blur(10px);           /* O "embaçado" por trás do vidro */
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+  --bs-card-border-width: 0; 
+  --bs-card-box-shadow: none;
+}
+
+.form-control {
+  background: rgba(255, 255, 255, 0.4);
+  border: none;
+  border-radius: 8px;
+  color: #333;
+}
+
+.form-control::placeholder {
+  color: #555;
+}
+
+.btn-primary {
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  color: #333;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.form-label, h3 {
+  color: #2b2b2b;
+  font-weight: 600;
+}
+
+.text-center {
+    color: white;
+}
+
+.form-label {
+    color: white;
+}

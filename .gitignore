@@ -1,11 +1,14 @@
 # Ignorar node_modules de AMBOS os projetos
-/backend/node_modules
 /frontend/node_modules
+/backend/ProjBia/node_modules
 
 # Ignorar arquivos de ambiente do backend
-/backend/.env
+/backend/ProjBia/.env
 
 # Ignorar pastas de build/distribuição
-/backend/dist
+/backend/ProjBia/dist
 /frontend/dist
 /frontend/.angular/
+
+# Ignorar arquivos do VSCode
+.vscode/
